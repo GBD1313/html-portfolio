@@ -1,0 +1,22 @@
+.form-box {
+	width: 80%;
+	max-width: 290px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	background: #ffff;
+	padding: 40px 35px 30px;
+	text-align: center;
+	border-radius: 14px;
+}
+.form-box h1::after{
+	content: '';
+	width: 30px;
+	height: 4px;
+	border-radius: 3px;
+	background: #3c00a0;
+	position: absolute;
+	bottom: -12px;
+	left: 50%;
+	transform: translate(-50%);
+}
